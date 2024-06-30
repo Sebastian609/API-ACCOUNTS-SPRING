@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apiaccountsspring:
+    image: apiaccountsspring
+    build:
+      context: .
+      dockerfile: ./Dockerfile
